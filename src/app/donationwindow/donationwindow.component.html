@@ -1,0 +1,124 @@
+<div class="container-fluid main">
+		
+	<input type="checkbox" name="toggle" id="toggle" />
+	<label for="toggle"></label>
+	
+	<div class="container cont">
+	</div>
+		  
+	<div class="messsage">
+	<p class = "content">Your generous support today will help our organisations to work with governments, industries and individuals to help 
+	reduce their greenhouse gas emissions. We encourage them to switch to renewable energy – to help minimise climate
+	 change and the warming that threatens our wildlife, their food sources and their habitats.Alongside our partners,
+	 we also work to help endangered and vulnerable species like marine turtles and shy albatross adapt to the rapidly
+	 changing environment through our climate resilience work.  </p>
+	</div>
+	
+		
+	<div class="row">
+		<div class="offset-sm-1 col-sm-5">
+		
+			<h1>
+			<strong>Donation Window</strong>
+			</h1>
+		
+			<form action="donate.html" name="myForm" onsubmit = "return(validate());">
+			
+			<div class="form-group">
+			<label for="firstname">First Name</label>
+			<input type="text" class="form-control" name="firstname">
+		</div>
+			<div class="form-group">
+			<label for="lasstname">Last Name</label>
+			<input type="text" class="form-control" name="lastname">
+		</div>
+			<div class="form-group">
+			<label for="contact">Contact Number</label>
+			<input type="text" class="form-control" name="number">
+		</div>
+		
+		<div class="form-group">
+			<label for="contact">Email</label>
+			<input type="email" class="form-control" name="email">
+		</div>
+		
+		<div class="form-group">
+		<label for="organisation">Choose Organisation whom you want to donate</label>
+			
+			<br>
+			<select class="form-control" name="SelectOne">
+				<option selected disabled>- Select an option -</option>
+				<option>Greenpeace</option>
+				<option>Indian Environmental Society</option>
+				<option>Fauna and Flora International</option>
+				<option>The Nature Conservancy</option>
+				<option>Nature Friends International</option>
+				<option>Wetlands International</option>
+			</select>
+		</div>
+		<h4>Choose One</h4>
+				<label class="radio-inline">
+			  <input type="radio" name="source" checked>Debit Card
+		</label>
+    <label class="radio-inline">
+      <input type="radio" name="source">Credit Card
+    </label>
+
+			<p>&nbsp; </p>
+			
+			
+			
+			<div class="form-group">
+			<label for="card">Card Number</label>
+			<input type="text" class="form-control" name="card">
+			</div>
+			
+			<div class="form-group ">
+		<label for="month">Month</label>
+			
+			<br>
+			<select class="form-control input-group-lg" name="month">
+			 <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+			</select>
+			
+			<label for="Year">Year</label>
+			<select class="form-control" name="Year">
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+		</div>
+  
+			<div class="form-group">
+			<label for="CVV">CVV</label>
+			<input type="text" class="form-control" name="CVV">
+			</div>
+			
+		<div class="form-group">
+		<label for="amount">Amount (RS)</label>
+		
+		<input type="number" class="form-control" name="money">
+		</div>
+		<input type="submit" value="Submit" class="btn btn-success btn-block">
+		</form>
+	
+		</div>	
+		<div class="col-sm-5 image" (mouseover)="fadeIt()" (mouseout) = "fadeOut()">
+			
+		</div>
+	</div>
+	</div>	

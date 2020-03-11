@@ -1,0 +1,44 @@
+[
+    {
+        "heading": "Water: A recycled commodity",
+        "content": "The amount of water on Earth is constant, and continually recycled over time: some of the water you drink will have passed through a dinosaur.",
+        "img": "../assets/water.jpg"
+    },
+    {
+        "heading": "Recycled Paper",
+        "content": "Paper can be recycled only six times. After that, the fibers are too weak to hold together.",
+        "img": "../assets/paper.jpg"
+    },
+    {
+        "heading": "Shortage of Resources",
+        "content": "We are using up 50% more natural resources than the Earth can provide. At our current population, we need 1.5 Earths, which we do not have.",
+        "img": "../assets/resource.jpg"
+    }
+    ,
+    {
+        "heading": "No Trees, No Life",
+        "content": "The world has already lost 80% of its forests and we’re continually losing them at a rate of 375 km square per day",
+        "img": "../assets/trees.jpg"
+    }
+    ,
+    {
+        "heading": "Water in the Atmosphere",
+        "content": "There is more water vapor in the atmosphere than all the combined rivers on the planet.",
+        "img": "../assets/water-fact.jpg"
+    },
+    {
+        "heading": "The Ozone Layer",
+        "content": "The Ozone Layer “Hole” which is 29 million square kilometers, is expected to be fully healed in the next 55 years. This is due to the worldwide banning of chlorofluorocarbon and hydro fluorocarbon.",
+        "img": "../assets/ozonelayer.jpg"
+    },
+    {
+        "heading": "Too Deep",
+        "content": "If you go to the deepest part of our ocean, the pressure can be compared to a human being trying to hold 50 jumbo jets!",
+        "img": "../assets/ocean.jpg"
+    },
+    {
+        "heading": "Plastic Problem",
+        "content": "Plastic is Forever. It doesn’t bio-grade and go back to nature. It photo-degrades into smaller pieces of itself, continually polluting the environment throughout its life cycle.",
+        "img": "../assets/plastic.jpg"
+    }
+]

@@ -1,0 +1,187 @@
+.first {
+  background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.521)),
+    url("/assets/learn-front.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 88vh;
+  min-height: 100%;
+  width: 95vw;
+}
+
+.maincontainer{
+  background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url('/assets/texture-trees.jpg') no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+  display: none;
+  overflow: hidden;
+  background-size: cover;
+}
+
+div.content {
+  margin-top: 10%;
+}
+
+.content h1 {
+  font-size: 3.3rem;
+  font-family: "Arvo";
+}
+
+button.btn-explore {
+  padding: 13px 16px 13px 16px;
+  color: black;
+  margin-top: 3%;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  width: 200px;
+  transition: all 0.3s;
+}
+
+div.yes,
+div.no,
+div.timer {
+  display: none;
+  font-family: "Arvo", "Raleway";
+  font-size: 1.5rem;
+}
+
+div.yes,
+div.no {
+  margin-top: 5%;
+}
+div.timer {
+  margin-top: 1%;
+  font-size: 3rem;
+}
+
+div.fact {
+  height: 40vh;
+  min-height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, #95ff8bce , #e3ff67c9);
+  border-radius: 10px;
+  box-shadow: 2px 7px 15px #050505;
+  overflow: hidden;
+}
+
+div.fact-row{
+    margin-bottom: 1.6em;
+}
+
+
+.header {
+    
+    margin-bottom: 1em;
+    height: 25vh;
+    color: rgb(255, 255, 255);
+  min-height: 100%;
+  width: 100%;
+}
+
+
+
+.header h1{
+    padding-left: 9%;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 5%;
+    text-shadow: 3px 3px 6px rgb(75, 71, 71);
+}
+
+.header h4{
+  padding-left: 9%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgb(75, 71, 71);
+
+}
+
+.header h4.first-sub{
+  letter-spacing: 7px;
+}
+
+.header h4.second-sub{
+  letter-spacing: 10px;
+}
+
+.fact-header, .fact-content{
+    padding-left: 5%;
+    font-family: 'Lato';
+    font-weight: 600;
+    padding-top:4%;
+}
+.fact-content{
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+.img-fact{
+    width: 100%;
+    height: 40vh;
+}
+
+.img-fact img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-yes {
+  background: linear-gradient(to right, rgb(101, 235, 101), rgb(47, 204, 47));
+}
+
+.btn-no {
+  background: linear-gradient(to left, rgb(236, 136, 136), rgb(231, 71, 71));
+}
+
+.btn-yes:hover {
+  transform: translate(0px, -3px);
+  box-shadow: 0 10px 10px #164d1e;
+  outline: none;
+}
+
+.btn-no:hover {
+  transform: translate(0px, -3px);
+  box-shadow: 0 10px 10px #631e1e;
+  outline: none;
+}
+
+.btn-explore:active {
+  transform: translate(-1px);
+  outline: none;
+}
+
+.header-end h1{
+  padding-top: 2%;
+}
+
+.header-end h4{
+  padding-top: 3%;
+}
+
+.spinner-grow{
+  height: 5.5rem;
+  width: 5.5rem;
+} 
+
+@media screen and (max-width: 580px) {
+  div.fact{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 96%;
+  }
+
+  div.img-fact{
+    height: 23vh;
+    width: 100%;
+  }
+  
+ 
+}
+

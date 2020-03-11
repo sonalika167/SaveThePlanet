@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/aos/dist/aos.css";
+
+html{
+    font-family: 'Raleway';
+    box-sizing: border-box;
+    height: 100%;   
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   padding-top: 80px;
+   font-family: "Raleway";
+   font-feature-settings: "liga" 0;
+   position: relative;
+}
+

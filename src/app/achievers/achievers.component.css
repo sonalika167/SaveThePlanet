@@ -1,0 +1,61 @@
+#p1
+{
+	color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39px;
+	
+}
+.l1
+{
+	text-align:justify;
+	font-size: 18px;
+	font-style:bold;
+}
+.p1{
+		color: #000;
+		font-size:20px;
+		text-align:justify;
+}
+.img-edit
+{
+	border-radius: 25px 50px;
+}
+h2,h1{
+	color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39px;
+}
+div.col_6{
+	transition: all 0.7s;
+}
+div.col_6:hover, div.col_6:active
+{
+	transform: scale(1.02);
+	background-color:#E6E6E6;
+}
+
+.box_industries
+{
+      
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.box_industries .content
+{
+background-color: rgba(100, 100, 100, 0.5);
+  bottom: -100%;
+  height: 100%;
+  left: 0%;
+  text-align: center;
+  position: absolute;
+  transition: bottom 0.5s ease;
+  width: 100%;
+}
+.box_industries:hover .content
+{
+  bottom: 0%;
+}

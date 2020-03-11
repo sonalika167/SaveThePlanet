@@ -1,0 +1,69 @@
+<div class="container-fluid" >
+  <div class="row">
+    <div class="col-sm-12 first text-center" id="mainlearn">
+      <div class="content" id="check">
+        <h1>Do you really know your planet?</h1>
+        <button class="btn btn-explore btn-yes" id="btn-yes-id" (click) = "fun1()">
+          Yes
+        </button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-explore btn-no" id="btn-no-id" (click) = "fun2()">
+          No
+        </button>
+        <div class="yes" id = "yes-id">
+          Well let's see if you knew these facts.
+        </div>
+        <div class="no" id = "no-id">
+          Then, let's learn a few things.
+        </div>
+        <div class="timer" id="timer-id">
+            <div class="spinner-grow text-success" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+<div class="container-fluid maincontainer">
+  <div class="row">
+      <div class="col-sm-12">
+    <div class="header">
+      <h1>Just some facts </h1>
+      <h4 class = "first-sub">START SCROLLING</h4>
+      <h4 class = "second-sub">KEEP LEARNING</h4>
+    </div>
+  </div>
+    </div>
+
+    <br><br>
+    <div class="row fact-row"  data-aos="zoom-in" data-aos-duration="1800" data-aos-offset = "-395" *ngFor="let fact of factdetails">
+      <div class="offset-sm-1 col-sm-10">
+          <div class="fact">
+        <div class="row">
+          <div class="col-sm-7">
+
+        <h1 class="fact-header">{{fact.heading}}</h1>
+        <p class="fact-content">
+          {{fact.content}}
+        </p>
+      </div>
+      
+      <div class="col-sm-5">
+        <div class="img-fact">
+          <img src="{{fact.img}}" alt="">
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-sm-1 col-sm-10 header header-end text-center">
+        <h4>You can stop scrolling now</h4>
+        <h1>But keep learning</h1>
+      </div>
+    </div>
+</div>        
+</div>

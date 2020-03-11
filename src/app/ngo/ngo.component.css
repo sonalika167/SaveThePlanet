@@ -1,0 +1,77 @@
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size:2rem;
+    color: rgb(59, 59, 59);
+}
+
+.heading-hr{
+    border-color: rgb(118, 148, 73);
+    margin-top: 2rem;
+}
+
+p{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+a.email{
+    text-decoration: none;
+}
+
+a.email:hover{
+    color: black;
+}
+
+h4:after{
+    content: "";
+    display: block;
+    margin-top: 5px;
+    background-color: black;
+    width: 40%;
+    height: 1px;
+}
+
+.div-btn{
+    margin-top: 4rem;
+}
+
+.visit-button{
+    background-color: rgb(126, 207, 89);
+  padding: 13px 16px 13px 16px;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 100px;
+  border: none;
+  animation: entry-right 2s;
+  outline: none;
+  width: 250px;
+  transition: all 0.3s;
+}
+
+.visit-button:hover {
+    transform: translate(0px, -3px);
+    box-shadow: 0 10px 10px #357739;
+
+  }
+  
+hr.end{
+    border-color: gray;
+    margin: auto;
+    height: 5px;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+div.img-holder img{
+    width: 70%;
+    height: auto;
+}
+
+@media screen and (max-width: 500px){
+    .div-btn{
+        margin-top: 2rem;
+    }
+}

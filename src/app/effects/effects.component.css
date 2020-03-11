@@ -1,0 +1,79 @@
+#intro
+{
+	height:55%;
+}
+#intro
+
+ {
+    background: url("/assets/fire.jpg")no-repeat center center fixed;
+    background-size: cover;
+   
+}
+#content
+{
+    
+    max-width:450px;
+    padding:30px 20px;
+}
+
+#content h2{
+	color: white;
+	text-align: center;
+	font-size: 66px;
+	letter-spacing: 2px;
+}
+.p1
+{
+font-size: 16px;
+color:black;
+font-style:bolder;
+text-align: justify;
+padding: 1rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+background-color: #F3F2F2;
+}
+
+.conclusion{
+    font-weight: bold;
+}
+div.first-image{
+    display: none;
+}
+div.second-image{
+    display: none;
+}
+div.third-image{
+    display: none;
+}
+div.fourth-image{
+    display: none;
+}
+div.fifth-image{
+    display: none;
+}
+img{
+    display: inline-block;
+    height: 40vh;
+    width: 33vw; 
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    border-radius: 9px;
+}
+.p2
+{
+font-size: 1.1rem;
+color:black;
+margin-top: 1rem;
+padding: 1.1rem;
+text-align: justify;
+border: 1px solid gray;
+background-color: #F3F2F2;
+border-radius:15px 15px;
+}
+
+h1,h3,h4
+{
+	color:#555;
+	
+}

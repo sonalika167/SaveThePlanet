@@ -1,0 +1,39 @@
+.footer{
+    background-color: black;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+
+}
+
+
+.main{
+    position: absolute;
+    bottom: 0;
+}
+div.details{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.foot-brand{
+    color: gray;
+}
+
+a:hover{
+    color: gray;
+}
+
+.fa{
+    color: white;
+}
+
+.fa-copyright{
+    color: gray;
+}

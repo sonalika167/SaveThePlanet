@@ -1,0 +1,172 @@
+
+#intro
+
+ {
+    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.63)), url("/assets/1.png") no-repeat center center fixed;
+    height: 50vh;
+    -webkit-background-size: cover;
+    padding-top: 4rem;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.thumbnail:hover .text {
+    opacity: 0.8;	
+  }
+
+  .image1{
+    background-image: url('/assets/recycle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .image2{
+    background-image: url('/assets/renewable.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .image3{
+    background-image: url('/assets/slide2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .image4{
+    background-image: url('/assets/pollution.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .image5{
+    background-image: url('/assets/8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .right{
+      padding-right: 2.5rem;
+  }
+
+  .left{
+      padding-left: 2.5rem;
+  }
+
+  .thumbnail{
+    
+    height: 45vh;
+    width: 100%;
+
+    border-radius: 10px;
+  }
+
+  .col_6{
+    transition: all 0.7s;;
+  }
+
+  a{
+      text-decoration: none;
+  }
+  a:hover{
+      color: black;
+  }
+  .text {
+    border-left: 9px solid gray;
+    border-bottom: 9px solid gray;
+    background-color: #F1F1F1;
+  
+    font-size: 20px;
+    padding: 16px 32px;
+    font-style:bolder;
+    
+  }
+
+.text {
+    transition: .5s ease;
+    opacity: 0;
+    margin-top: 16vh;
+  }
+
+div.right img{
+    float: right;
+}
+
+div img{
+    width: 90%;
+    height:50vh;
+    border-radius: 50px;
+}
+
+#content
+{
+    
+    max-width:450px;
+}
+
+#content h2{
+	color: white;
+	text-align: center;
+	font-size: 66px;
+	letter-spacing: 2px;
+}
+
+#content h4{
+	font-size: 22px;
+	color: white;
+	letter-spacing: 3px;
+}
+.hide_it
+{
+border:hidden;
+background-color:#F9FAFA;
+}
+
+hr{
+    width: 85%;
+    margin: 25px 0px 25px 0px;
+    border-top: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+li
+{
+color:black;
+font-style:bolder;
+font-size: 1.2rem;
+
+}
+.p1
+{
+font-size:20px;
+color:black;
+font-style:bolder;
+text-align: justify;
+}
+div.col_6:hover, div.col_6:active
+{
+	transform: scale(1.01);
+}
+
+
+@media screen and (max-width: 860px) {
+    /* div.right img{
+        float: none;
+    } */
+    /* div img{
+        display: block;
+        margin: auto;
+    } */
+
+    .thumbnail{
+        margin: 1rem;
+    }
+
+    .right, .left{
+        padding-left: none;
+        padding-right: none;
+    }
+   
+  }
+

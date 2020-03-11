@@ -1,0 +1,67 @@
+[    
+    {
+        "name": "Greenpeace",
+        "details1": "Greenpeace is a non-governmental environmental organization with offices in over 39 countries and an international coordinating body in Amsterdam, the Netherlands. Greenpeace was founded in 1971 by Irving Stowe and Dorothy Stowe, Canadian and US ex-pat environmental activists. Greenpeace states its goal is to \"ensure the ability of the Earth to nurture life in all its diversity\" and focuses its campaigning on worldwide issues such as climate change, deforestation, overfishing, commercial whaling, genetic engineering, and anti-nuclear issues.",
+        "details2": "Greenpeace India does not accept donations from governments or corporations, and relies on the donations of close to 56,000 Indian citizens to fund their campaign work. In addition we are supported by a national network of Indian volunteers as well as 7.5 lakh online and 19 lakh mobile activists [all figures March 2017].",
+        "img": "/assets/greenpeace.png",
+        "contact": {
+            "emailid":"supporter.services.in@greenpeace.org",
+            "phone": "1800 425 0374"
+        },
+        "website":"https://www.greenpeace.org/india/"
+    },
+    {
+        "name": "Indian Environmental Society",
+        "details1": "Registered under the Societies Registration Act XXI, 1860, the Indian Environmental Society (IES) – a dynamic and flexible organization with a global vision and local focus- was set up in 1972 to increase the consciousness and knowledge about the environment and the major environmental problems facing the Earth today. Indian Environmental Society has been providing leadership role in the field of environment and resource management since its inception. ",
+        "details2":"IES has been engaged in environmental development activities with a philosophy of self-help and community participation. The projects and programmes undertaken by IES move from local and national level strategies to suggesting global solutions on critical environment related issues. IES has created widespread environmental and civic awareness by promoting community based environmental improvement efforts. The aim of the Society is to reach out to general masses with the messages and services, build-up grass-root movement, and influence need based policy formulation.",
+        "img": "",
+        "contact": {
+            "emailid":"iesindia@gmail.com",
+            "phone": "+(91)-11-22046823 / 24"
+        },
+        "website":"http://www.iesglobal.org/"
+    },{
+        "name": "Fauna & Flora International",
+        "details1": "Established over a century ago, Fauna & Flora International (FFI) is the world's oldest international wildlife conservation organisation. They have been quietly shaping and influencing conservation practice since our foundation in 1903. Their focus is on protecting biodiversity (the diversity of life on Earth), which underpins healthy ecosystems and is critical for the life-support systems that humans and all other species rely on.",
+        "details2":"Their mission is to is to conserve threatened species and ecosystems worldwide, choosing solutions that are sustainable, based on sound science, and which take into account human needs.",
+        "img": "/assets/floraandfauna.jpg",
+        "contact": {
+            "emailid":"info@fauna-flora.org",
+            "phone": "+44 1223 571 000"
+        },
+        "website":"https://www.fauna-flora.org/"
+    },
+    {
+        "name": "The Nature Conservancy",
+        "details1": "Founded at its grassroots in the United States in 1951, The Nature Conservancy has grown to become one of the most effective and wide-reaching environmental organizations in the world. Thanks to more than a million members and the dedicated efforts of our diverse staff and more than 400 scientists, we impact conservation in 72 countries across six continents.",
+        "details2":"Their    mission is to conserve the land and waters on which all life depends. Our vision is a world where the diversity of life thrives, and people act to conserve nature for its own sake and its ability to fulfill our needs and enrich our lives.",
+        "img": "/assets/the-nature-conservancy.png",
+        "contact": {
+            "emailid":"megan.merenda@tnc.org",
+            "phone": "+91 11-49769905"
+        },
+        "website":"https://www.tncindia.in/"
+    },
+    {
+        "name": "Nature Friends International",
+        "details1": "The Naturefriends movement was founded in 1895 and ranks amongst the largest non-governmental organisations around the globe. Our 350,000 members are active in local groups/sections and are represented by regional, federal and national associations. Naturefriends International (NFI) is the umbrella organisation of approximately 45 national member organisations and is itself member of the Green 10, a platform of the ten largest European environmental NGOs.",
+        "details2":"Naturefriends are a democratically organised movement that is committed to ecological and sociopolitical causes. The aim of their activities is sustainable development of the environment and the society at the regional, national and global level.",
+        "img": "/assets/naturefriends.png",
+        "contact": {
+            "emailid":"office@nf-int.org",
+            "phone": "+43 (0)1 892 38 77"
+        },
+        "website":"https://www.nf-int.org/en"
+    },
+    {
+        "name": "Wetlands International",
+        "details1": "Wetlands International and its predecessors have worked to protect wetlands since 1937. Back then they were known as the International Wildfowl Inquiry. Their work began as part of the British Section of the International Committee of Bird Preservation, with a focus on protecting waterbirds.",
+        "details2":"Organisations with similar objectives emerged in Asia and the Americas: the Asian Wetland Bureau (AWB) was initiated as INTERWADER in 1983, and Wetlands for the Americas (WA) formed in 1989. These three organisations started to work closely together in 1991. This working relationship evolved into a single global organisation which adopted the name Wetlands International and established its headquarters in the Netherlands in 1996.",
+        "img": "/assets/wetlands.jpg",
+        "contact": {
+            "emailid":"post@wetlands.org",
+            "phone": "+31 (0) 318 660 910"
+        },
+        "website":"https://www.wetlands.org/"
+    }
+]

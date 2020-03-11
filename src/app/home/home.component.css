@@ -1,0 +1,322 @@
+.back {
+  background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.384)),
+    url("/assets/green_plant_bg.jpg") no-repeat;
+  height: 86vh;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position-y: 50%;
+  margin-bottom: 1rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-feature-settings: "smcp", "zero";
+  font-feature-settings: "liga" 0;
+  color: rgb(238, 221, 221);
+}
+
+.sizer {
+  background-color: rgba(255, 255, 255, 0.76);
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.headers {
+  margin-top: 10%;
+}
+#maindiv {
+  max-width: 100%;
+  width: 96vw;
+}
+
+.title {
+  font-weight: 600;
+  display: block;
+  letter-spacing: 1px;
+  font-size: 70px;
+  animation: entry 2s;
+}
+
+.sub-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  letter-spacing: 10px;
+  font-feature-settings: "liga" 0;
+  font-feature-settings: "smcp", "zero";
+  font-variant: none;
+  animation: entry 2s;
+  text-align: center;
+}
+
+@keyframes entry{
+  from{
+    margin-left: -300px;
+    opacity: 0.5;
+  }
+}
+
+@keyframes entry-right{
+  from{
+    margin-right: -300px;
+    opacity: 0.5;
+  }
+}
+
+.info-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  padding: 15px;
+  margin-bottom: 18vh;
+  animation: entry-right 2s;
+}
+
+button.btn-explore {
+  background-color: white;
+  padding: 13px 16px 13px 16px;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 100px;
+  border: none;
+  animation: entry-right 2s;
+  outline: none;
+  width: 250px;
+  transition: all 0.3s;
+}
+
+.btn-explore:hover {
+  transform: translate(0px, -3px);
+  box-shadow: 0 10px 20px #000000;
+  outline: none;
+}
+
+.btn-explore:active {
+  transform: translate(-1px);
+  outline: none;
+}
+
+
+.parallax-caption {
+  background-color: rgba(16, 43, 20, 0.712);
+  color: rgb(255, 255, 255);
+  font-family: "Raleway";
+  box-shadow: 0 10px 20px #000000;
+  font-weight: 600;
+  padding: 0.5em;
+  letter-spacing: 2px;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+
+hr.underline{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  height: 0.2vh;
+}
+
+.parallax-caption-sub{
+  color: white;
+  letter-spacing: 1px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+}
+
+.info-para{
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+
+.content1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.432)),
+    url("/assets/parallax4.jpg") no-repeat;
+
+  height: 86vh;
+  min-height:100%;
+  margin-bottom: 1rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.content2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.445)),
+    url("/assets/parallax5.jpg") no-repeat;
+
+  padding: 0;
+  margin-right: 0;
+  min-height: 100%;
+  margin-bottom: 1rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.flip-card {
+  background-color: transparent;
+  height: auto;
+  width: 20vw;
+  margin-left: 1vw;
+  margin-bottom: 25%;
+  border: none;
+  width: 100%;
+  height: 350px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 10px 20px #000000;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: rgba(228, 243, 226, 0.788);
+  color: black;
+  padding: 5px;
+}
+
+.flip-card-back {
+  background: linear-gradient(to bottom right, rgb(30, 95, 30), rgb(69, 202, 69));
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h4{
+  font-weight: 600;
+}
+
+.flip-card-back p{
+  font-size: 1.1rem;
+}
+
+.flip-card-front p{
+  font-size: 1.3em;
+  font-family: sans-serif;
+  color: rgb(48, 47, 47);
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.content3 {
+  /* background:linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.562)),
+  url("/assets/joined_hands.jpg") no-repeat; */
+  width: 96vw;
+  height: 70vh;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+i.fa-ravelry{
+  color:white;
+}
+
+hr.content3-ruler{
+  margin: auto;
+  width: 40%;
+  background-color: black;
+  opacity: 1;
+  height: 1px;
+}
+
+button.btn-foot{
+  background-color: black;
+  color: white;
+}
+
+hr.seperator{
+  width: 85%;
+  margin: auto;
+  height: 3px;
+}
+
+.content3 h4{ 
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-family: 'Arvo', serif;
+
+}
+
+.content3 h3{
+  font-size: 2.5rem;
+}
+
+.superhero-heading{
+  font-size: 3rem;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+}
+
+.card{
+  perspective: 600px;
+}
+
+.card-img-top{
+  height: 30vh;
+}
+
+@media screen and(max-width: 1260px){
+  .flip-card{
+    width: auto;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .headers {
+    transform: scale(0.8);
+  }
+  .content3{
+    transform: scale(0.8);
+  }
+  .superhero-heading{
+    font-size:2.5rem;
+  }
+  .flip-card{
+    width: auto;
+  }
+  .content3{
+    height: auto;
+  }
+ 
+}
+
+
+@media screen and (max-width: 475px) {
+  .sub-title {
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+}
